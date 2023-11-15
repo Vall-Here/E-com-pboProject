@@ -26,3 +26,4 @@ if ($login == false) {
 		</div>
 	</div>
 <?php include 'inc/footer.php'; ?>
+<?php ?>
