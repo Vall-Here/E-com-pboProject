@@ -13,9 +13,26 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['submit'])) {
 ?>
 
  <style type="text/css">
- 	.tblone{width: 50%; margin: 0 auto; border:2px solid #ddd;}
- 	.tblone tr td{text-align: justify;}
+ 	.tblone{width: 50%; margin: 100px auto; 
+		box-shadow: 1px -1px 25px -2px rgba(0,0,0,0.35);
+	-webkit-box-shadow: 1px -1px 25px -2px rgba(0,0,0,0.15);
+	-moz-box-shadow: 1px -1px 25px -2px rgba(0,0,0,0.15);
+	}
+ 	.tblone tr td{text-align: justify;
+	margin: 0 auto;
+	}
+	tr {
+		margin-left: 5%;
+	}
  	.tblone input[type="text"]{width:400px; padding: 5px; font-size: 15px;}
+	td input[type="text"]{
+		border: none;
+		height: 50px;
+		border-bottom: 1px solid black;
+	}
+	form {
+		padding: 50px;
+	}
  </style>
 <div class="main">
 	<div class="content">
@@ -32,7 +49,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['submit'])) {
                         echo "<tr><td colspan='3' style='text-align: center;''>".$updateCmr."</td></tr>";
                     } ?>
 				<tr>
-					<td colspan="3" style="text-align: center;"><h2>Update Profile Details</h2></td>					
+					<td colspan="3" style="text-align: center; background-color:darkgray; margin-bottom:50px;"><h2>Update Profile Details</h2></td>					
 				</tr>
 				<tr>
 					<td width="20%">Name</td>
@@ -59,11 +76,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['submit'])) {
 					<td>:</td>
 					<td><input type="text" name="city" value="<?php echo $result['city']; ?>"></td>
 				</tr>
-				<tr>
-					<td>Zip Code</td>
-					<td>:</td>
-					<td><input type="text" name="zip" value="<?php echo $result['zip']; ?>"></td>
-				</tr>
+
 				<tr>
 					<td>Country</td>
 					<td>:</td>					

@@ -20,7 +20,7 @@ if ($login == false) {
                 while ($result = $getData->fetch_assoc()) {
                     ?>
 			<table class="tblone">
-				<tr>
+				<tr style="background-color: darkgray;">
 					<td colspan="3" style="text-align: center;"><h2>Your Profile Details</h2></td>					
 				</tr>
 				<tr>
@@ -55,9 +55,7 @@ if ($login == false) {
 					<td><?php echo $result['country']; ?></td>
 				</tr>
 				<tr>
-					
 					<td colspan="3" style="text-align: center; font-size: 22px;"><a style="color: green;" href="editprofile.php">Update Details</a></td>
-					
 				</tr>				
 			</table>
 			<?php

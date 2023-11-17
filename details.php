@@ -72,7 +72,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['wlist'])) {
                     	<div class="mybutton">
 						<form action="" method="post">
 							<input type="hidden" class="buyfield" name="productId" value="<?php echo $result['productId']; ?>"/>							
-							<input type="submit" class="buysubmit" name="compare" value="Add to Compare"/>
+							<input type="submit" class="buysubmit" name="compare" value="Compare"/>
 						</form>
 						</div>
 						<div class="mybutton">
