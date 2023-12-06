@@ -14,8 +14,13 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 <title>Admin Login</title>
     <link rel="stylesheet" type="text/css" href="css/stylelogin.css" media="screen" />
 </head>
+<style>
+	.container {
+		padding-top: 10%;
+	}
+</style>
 <body>
-<div class="container">
+<div class="container" >
 	<section id="content">
 		<form action="" method="post">
 			<h1>Admin Login</h1>
@@ -37,7 +42,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 			</div>
 		</form><!-- form -->
 		<div class="button">
-			<a href="#">Training with live project</a>
+			<!-- <a href="#">Training with live rproject</a> -->
 		</div><!-- button -->
 	</section><!-- content -->
 </div><!-- container -->

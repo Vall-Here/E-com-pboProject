@@ -92,7 +92,7 @@ body{
   /* Shopping Cart */
   .shopping_cart {
 	float: left;
-	width: 202px;
+	width: 252px;
 	position: relative;
 	margin-left: 15px;
 	padding: 0 0 0 46px;
@@ -166,7 +166,7 @@ body{
   float: left;
   /* height: 284px; */
   padding: 40px;
-  width: 812px;
+  width: 50%;
   border-radius: 10px;
   margin: 5% 2% 2% 2%;
   box-shadow: 1px -1px 25px -2px rgba(0,0,0,0.35);
@@ -209,10 +209,10 @@ body{
 
 .login_panel{
 	float:left;
-	width: 545px;
+	width: 30%;
 	margin-top: 5%;
-	margin-right: 5%;
-	margin-left: 5%;
+	margin-right: 2%;
+	margin-left: 2%;
 	margin-bottom: 10%;
 	padding:40px;
 	border-radius: 10px;

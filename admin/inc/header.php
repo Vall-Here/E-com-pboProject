@@ -43,13 +43,13 @@ Session::checkSession();
 </head>
 <body>
     <div class="container_12">
-        <div class="grid_12 header-repeat">
+        <div class="grid_12 ">
             <div id="branding">
                 <div class="floatleft logo">
-                    <img src="img/livelogo.png" alt="Logo" />
+                    <img style="width: 300px; height:100px" src="../images/logo.png" alt="Logo" />
                 </div>
                 <div class="floatleft middle">
-                    <h1>DASHBOARD USER</h1>
+                    <h1>DASHBOARD Admin</h1>
                 </div>
                 <div class="floatright">
                     <div class="floatleft">

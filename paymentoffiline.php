@@ -125,11 +125,7 @@ if (isset($_GET['orderid']) && $_GET['orderid'] == 'order') {
 					<td>:</td>
 					<td><?php echo $result['city']; ?></td>
 				</tr>
-				<tr>
-					<td>Zip Code</td>
-					<td>:</td>
-					<td><?php echo $result['zip']; ?></td>
-				</tr>
+
 				<tr>
 					<td>Country</td>
 					<td>:</td>
